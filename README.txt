@@ -1,4 +1,4 @@
-About-- TAVU
+About-- TAVU(Only For Windows)
 by-Tarun Kumar(5ky)
 
 The tool should sort the files on Desktop on the basis of file extension and move them in
