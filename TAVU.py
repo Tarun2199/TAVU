@@ -1,4 +1,5 @@
 
+
 import os
 import shutil
 
@@ -26,8 +27,8 @@ if(input("                                         || press any key to continue 
     if(lan_choice==1):
         print("                                 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
         print("                                     Enter path location for arranging")
+        print("                                     ex-/Users/XYZ/Desktop/")
         path=input("                                 ----").strip()
-##        list_dict=os.listdir(path)
         try:
             list_dict=os.listdir(path)
         except:
@@ -79,6 +80,7 @@ if(input("                                         || press any key to continue 
     if(lan_choice==2):
         print("                                 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
         print("                                     Ingrese la ubicación de la ruta para organizar")
+        print("                                     ex-/Users/XYZ/Desktop/")
         path=input("                                 ----").strip()
         try:
             list_dict=os.listdir(path)
@@ -130,6 +132,7 @@ if(input("                                         || press any key to continue 
     if(lan_choice==3):
         print("                                 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
         print("                                     Введите путь для размещения")
+        print("                                     ex-/Users/XYZ/Desktop/")
         path=input("                                 ----").strip()
         try:
             list_dict=os.listdir(path)
